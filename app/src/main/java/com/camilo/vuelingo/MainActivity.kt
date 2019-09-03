@@ -75,8 +75,10 @@ class MainActivity : ToolbarActivity(),NavigationView.OnNavigationItemSelectedLi
         val name = navView.getHeaderView(0).findViewById<TextView>(R.id.txtName)
         val email = navView.getHeaderView(0).findViewById<TextView>(R.id.txtEmail)
 
-        name?.let { name.text = getString(R.string.user_name) }
-        email?.let { email.text = getString(R.string.user_email) }
+        val user = User()
+
+        name?.let { name.text = user.getName()}
+        email?.let { email.text = user.getEmail() }
     }
 
     override fun onNavigationItemSelected(item: MenuItem): Boolean {
