@@ -1,4 +1,4 @@
-package com.camilo.vuelingo.activities
+package com.camilo.vuelingo
 
 import android.os.Bundle
 import android.view.MenuItem
@@ -12,7 +12,6 @@ import com.alejandrolora.seccion_07_drawer_recycler_card.toast
 import com.camilo.vuelingo.fragments.ArrivalsFragment
 import com.camilo.vuelingo.fragments.DeparturesFragment
 import com.camilo.vuelingo.fragments.HomeFragment
-import com.camilo.vuelingo.R
 import com.google.android.material.navigation.NavigationView
 import kotlinx.android.synthetic.main.activity_main.*
 
